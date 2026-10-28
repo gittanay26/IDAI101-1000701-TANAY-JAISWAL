@@ -1,0 +1,263 @@
+{
+  "name": "CollectRequestScam",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "payment_method",
+          "displayName": "payment_method",
+          "value": "$payment_method",
+          "defaultValue": "UPI",
+          "entityTypeDisplayName": "@payment_method",
+          "mandatory": true,
+          "prompts": [
+            "What kind of issue are you dealing with? For example: UPI."
+          ]
+        },
+        {
+          "name": "message_channel",
+          "displayName": "message_channel",
+          "value": "$message_channel",
+          "defaultValue": "payment request",
+          "entityTypeDisplayName": "@message_channel",
+          "mandatory": true,
+          "prompts": [
+            "Where did you receive the message or request?"
+          ]
+        },
+        {
+          "name": "urgency_level",
+          "displayName": "urgency_level",
+          "value": "$urgency_level",
+          "defaultValue": "high",
+          "entityTypeDisplayName": "@urgency_level",
+          "mandatory": true,
+          "prompts": [
+            "Is this happening now, or have you already taken an action?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Do not approve an unexpected UPI collect request. A UPI PIN is used to authorize payments, not to receive money. Verify the request in your official payment app, reject anything you do not recognize, and contact your bank or payment provider immediately if you approved a suspicious payment."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "I received a UPI collect request from a stranger",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Someone says I must approve a request to receive money",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Is this payment request safe",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A buyer sent me a collect request",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I got a UPI request I did not expect",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Do I need to enter my PIN to receive money",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Someone wants me to approve a collect request quickly",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I received a payment request with an unknown name",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A seller asked me to approve a UPI request",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Could this UPI collect request be fraud",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I accidentally approved a suspicious request",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How do I reject an unknown UPI request",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "They say approving the request will give me a refund",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A stranger sent a request for a small amount",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I got a collect request after listing an item for sale",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Should I scan a QR code to receive money",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "What happens if I enter my UPI PIN",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How can I check who sent a UPI request",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I am being pressured to approve a payment",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How do I stay safe from collect request scams",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "templates": []
+}

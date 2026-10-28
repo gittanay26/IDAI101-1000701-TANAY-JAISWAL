@@ -1,0 +1,214 @@
+{
+  "id": "phishingawarenessintent",
+  "name": "PhishingAwareness",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "PhishingAwareness",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Phishing messages imitate trusted organisations to trick people into clicking links, opening attachments, sharing credentials, or making payments. Check the sender carefully, avoid unexpected links, and verify requests through the organisation's official app or website. Never share passwords or OTPs."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "phishingawareness-01",
+      "data": [
+        {
+          "text": "What is phishing",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-02",
+      "data": [
+        {
+          "text": "Explain phishing scams",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-03",
+      "data": [
+        {
+          "text": "How do phishing messages work",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-04",
+      "data": [
+        {
+          "text": "How can I recognise a phishing email",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-05",
+      "data": [
+        {
+          "text": "What are common phishing warning signs",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-06",
+      "data": [
+        {
+          "text": "Can a text message be phishing",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-07",
+      "data": [
+        {
+          "text": "Why are fake login pages dangerous",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-08",
+      "data": [
+        {
+          "text": "How do scammers steal passwords through links",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-09",
+      "data": [
+        {
+          "text": "What should I check before clicking a link",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-10",
+      "data": [
+        {
+          "text": "Teach me about phishing attacks",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-11",
+      "data": [
+        {
+          "text": "How do fake account alerts trick people",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-12",
+      "data": [
+        {
+          "text": "Is an unexpected password reset email suspicious",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-13",
+      "data": [
+        {
+          "text": "How can I avoid phishing",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-14",
+      "data": [
+        {
+          "text": "What is a fake login page",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-15",
+      "data": [
+        {
+          "text": "Why should I check the sender address",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-16",
+      "data": [
+        {
+          "text": "Can a message imitate a real company",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-17",
+      "data": [
+        {
+          "text": "How do I stay safe from email scams",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-18",
+      "data": [
+        {
+          "text": "What should I do with a phishing message",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-19",
+      "data": [
+        {
+          "text": "How can I verify a message independently",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "phishingawareness-20",
+      "data": [
+        {
+          "text": "Give me phishing prevention tips",
+          "userDefined": false
+        }
+      ]
+    }
+  ]
+}

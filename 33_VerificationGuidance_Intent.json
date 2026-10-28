@@ -1,0 +1,263 @@
+{
+  "name": "VerificationGuidance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "verification_method",
+          "displayName": "verification_method",
+          "value": "$verification_method",
+          "defaultValue": "official source check",
+          "entityTypeDisplayName": "@verification_method",
+          "mandatory": true,
+          "prompts": [
+            "What type of issue is this? For example: official source check."
+          ]
+        },
+        {
+          "name": "message_channel",
+          "displayName": "message_channel",
+          "value": "$message_channel",
+          "defaultValue": "message or call",
+          "entityTypeDisplayName": "@message_channel",
+          "mandatory": true,
+          "prompts": [
+            "Where or how did this happen? For example: message or call."
+          ]
+        },
+        {
+          "name": "urgency_level",
+          "displayName": "urgency_level",
+          "value": "$urgency_level",
+          "defaultValue": "medium",
+          "entityTypeDisplayName": "@urgency_level",
+          "mandatory": true,
+          "prompts": [
+            "Is this urgent, or have you already taken an action?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Verify the claim independently using the organization's official app, website, or contact details that you find separately. Do not rely on phone numbers or links included in the suspicious message. Never share an OTP, password, or PIN during verification."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "How do I verify if a message is real",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Can you help me check a suspicious claim",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A message says it is from my bank",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How can I confirm a government notice",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I received an unexpected account alert",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How do I verify a job offer",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "The message asks me to act immediately",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How can I check if a sender is genuine",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Where should I verify a delivery message",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A caller claims to represent a company",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How do I find the official website",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Can I trust a forwarded warning message",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How do I confirm a payment request",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A message says my account will be blocked",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How do I verify a prize notification",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Should I use the phone number in the message",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How can I check an offer independently",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I want to verify an email sender",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "What are reliable ways to check a scam warning",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Give me steps to verify a suspicious message",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "templates": []
+}

@@ -1,0 +1,260 @@
+{
+  "id": "70a1f1e6-a56c-4b93-9db6-2049943c9baf",
+  "name": "DeliveryScam",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "DeliveryScam",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "platform_type",
+          "value": "$platform_type",
+          "entityTypeDisplayName": "@platform_type",
+          "mandatory": true,
+          "prompts": [
+            "Which courier or delivery platform does the message claim to be from?"
+          ]
+        },
+        {
+          "name": "message_content",
+          "value": "$message_content",
+          "entityTypeDisplayName": "@sys.any",
+          "mandatory": true,
+          "prompts": [
+            "Describe the message and requested payment, without personal details."
+          ]
+        },
+        {
+          "name": "payment_method",
+          "value": "$payment_method",
+          "entityTypeDisplayName": "@payment_method",
+          "mandatory": true,
+          "prompts": [
+            "What payment method is the message asking you to use?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Unexpected delivery-fee messages can be scams. Do not use the message link or share card details or OTPs. Check tracking only through the courier\u2019s official app or website, and contact the seller or courier using verified contact details."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "I got a fake delivery fee message",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A courier text says I must pay extra charges",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Is this parcel tracking message a scam",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Someone says my package is held until I pay",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "The delivery link asks for my card details",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I received a message about a missed parcel",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A courier asks for a small redelivery fee online",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I was not expecting a package but got a delivery SMS",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "The tracking website looks suspicious",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A delivery agent wants an OTP over the phone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Can scammers send fake shipping updates",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "My parcel message asks me to update my address",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I got a customs fee payment link by text",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "The courier message threatens to return my package",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How do I check a real delivery notification",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A fake delivery company contacted me",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Should I pay through a text message link",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "The parcel notice asks for bank details",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I clicked a suspicious tracking link",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How can I report a delivery scam",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

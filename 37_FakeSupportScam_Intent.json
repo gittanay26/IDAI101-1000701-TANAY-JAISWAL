@@ -1,0 +1,263 @@
+{
+  "name": "FakeSupportScam",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "scam_type",
+          "displayName": "scam_type",
+          "value": "$scam_type",
+          "defaultValue": "fake support scam",
+          "entityTypeDisplayName": "@scam_type",
+          "mandatory": true,
+          "prompts": [
+            "What type of issue is this? For example: fake support scam."
+          ]
+        },
+        {
+          "name": "contact_method",
+          "displayName": "contact_method",
+          "value": "$contact_method",
+          "defaultValue": "phone or messaging app",
+          "entityTypeDisplayName": "@contact_method",
+          "mandatory": true,
+          "prompts": [
+            "Where or how did this happen? For example: phone or messaging app."
+          ]
+        },
+        {
+          "name": "urgency_level",
+          "displayName": "urgency_level",
+          "value": "$urgency_level",
+          "defaultValue": "high",
+          "entityTypeDisplayName": "@urgency_level",
+          "mandatory": true,
+          "prompts": [
+            "Is this urgent, or have you already taken an action?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Stop interacting with the caller and never share passwords, OTPs, PINs, or remote-access codes. Contact the company through its official app or website. If you installed remote-access software or shared financial information, end the session, remove access, and contact your bank if needed."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "A support agent asked me for an OTP",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I found a customer support number on social media",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Someone claiming to be tech support wants remote access",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A caller wants me to install a screen sharing app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Is this customer care number genuine",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A support person asked for my banking PIN",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "They say they can fix my account if I pay",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I think I contacted a fake helpline",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Someone claiming to be support wants my password",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How do I find official customer support",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A caller is pressuring me to act immediately",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A support agent asked me to share my screen",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I installed an app because support told me to",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Can real support ask for my OTP",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A fake support agent wants a fee",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "They offered a refund if I give remote access",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How can I verify a support number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I shared bank details with a fake agent",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "What should I do after a fake support call",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How do I stay safe from support scams",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "templates": []
+}

@@ -1,0 +1,214 @@
+{
+  "id": "immediatesafetystepsintent",
+  "name": "ImmediateSafetySteps",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ImmediateSafetySteps",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Pause and do not send money or share more information. Do not click further links or install apps. If banking details or money may be involved, contact your bank through official channels immediately. Change exposed passwords from a trusted device, preserve messages/screenshots, and report the incident through the appropriate official service."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "immediatesafetysteps-01",
+      "data": [
+        {
+          "text": "What should I do right now",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-02",
+      "data": [
+        {
+          "text": "I think I am being scammed",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-03",
+      "data": [
+        {
+          "text": "Give me immediate safety steps",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-04",
+      "data": [
+        {
+          "text": "I clicked a suspicious link",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-05",
+      "data": [
+        {
+          "text": "I may have shared private information",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-06",
+      "data": [
+        {
+          "text": "I just received a threatening payment message",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-07",
+      "data": [
+        {
+          "text": "How do I stay safe after a scam attempt",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-08",
+      "data": [
+        {
+          "text": "Someone is pressuring me to pay now",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-09",
+      "data": [
+        {
+          "text": "What should I do first after a suspicious message",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-10",
+      "data": [
+        {
+          "text": "I think my device may be at risk",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-11",
+      "data": [
+        {
+          "text": "I gave a code to someone",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-12",
+      "data": [
+        {
+          "text": "I approved a suspicious payment request",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-13",
+      "data": [
+        {
+          "text": "I need urgent scam advice",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-14",
+      "data": [
+        {
+          "text": "How can I stop further damage",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-15",
+      "data": [
+        {
+          "text": "A stranger is asking me to act immediately",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-16",
+      "data": [
+        {
+          "text": "I may have downloaded a suspicious app",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-17",
+      "data": [
+        {
+          "text": "I am worried about an online fraud attempt",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-18",
+      "data": [
+        {
+          "text": "Tell me the first steps to take",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-19",
+      "data": [
+        {
+          "text": "I received a suspicious QR payment request",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "immediatesafetysteps-20",
+      "data": [
+        {
+          "text": "Help me handle this safely",
+          "userDefined": false
+        }
+      ]
+    }
+  ]
+}

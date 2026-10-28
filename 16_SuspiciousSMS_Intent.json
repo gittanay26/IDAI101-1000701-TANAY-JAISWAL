@@ -1,0 +1,214 @@
+{
+  "id": "suspicioussmsintent",
+  "name": "SuspiciousSMS",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "SuspiciousSMS",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Do not click links, reply, call numbers, or share codes from an unexpected SMS. Verify the claim through the organisation's official app or website. You can block and report the sender using your phone or messaging provider. Remove personal information before sharing the text for review."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "suspicioussms-01",
+      "data": [
+        {
+          "text": "I got a suspicious text message",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-02",
+      "data": [
+        {
+          "text": "This SMS says my parcel is held",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-03",
+      "data": [
+        {
+          "text": "I received a text with an unknown link",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-04",
+      "data": [
+        {
+          "text": "A message asks me to update my bank details",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-05",
+      "data": [
+        {
+          "text": "I got an SMS asking for an OTP",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-06",
+      "data": [
+        {
+          "text": "Is this text message a scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-07",
+      "data": [
+        {
+          "text": "A text says my account will be blocked today",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-08",
+      "data": [
+        {
+          "text": "I received a strange payment request by SMS",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-09",
+      "data": [
+        {
+          "text": "The sender is an unknown phone number",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-10",
+      "data": [
+        {
+          "text": "A text message says I won a prize",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-11",
+      "data": [
+        {
+          "text": "I got a delivery fee SMS I was not expecting",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-12",
+      "data": [
+        {
+          "text": "This message asks me to install an app",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-13",
+      "data": [
+        {
+          "text": "How can I verify a suspicious SMS",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-14",
+      "data": [
+        {
+          "text": "I received a text pretending to be my bank",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-15",
+      "data": [
+        {
+          "text": "A message asks me to click urgently",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-16",
+      "data": [
+        {
+          "text": "I got an unexpected refund message",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-17",
+      "data": [
+        {
+          "text": "The SMS includes a shortened URL",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-18",
+      "data": [
+        {
+          "text": "Should I reply to a suspicious text",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-19",
+      "data": [
+        {
+          "text": "How do I report a scam SMS",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "suspicioussms-20",
+      "data": [
+        {
+          "text": "Help me check this text message",
+          "userDefined": false
+        }
+      ]
+    }
+  ]
+}

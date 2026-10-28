@@ -1,0 +1,263 @@
+{
+  "name": "FakeSupportScam",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "scam_type",
+          "displayName": "scam_type",
+          "value": "$scam_type",
+          "defaultValue": "fake support scam",
+          "entityTypeDisplayName": "@scam_type",
+          "mandatory": true,
+          "prompts": [
+            "What kind of issue are you dealing with? For example: fake support scam."
+          ]
+        },
+        {
+          "name": "message_channel",
+          "displayName": "message_channel",
+          "value": "$message_channel",
+          "defaultValue": "call or message",
+          "entityTypeDisplayName": "@message_channel",
+          "mandatory": true,
+          "prompts": [
+            "Where did you receive the message or request?"
+          ]
+        },
+        {
+          "name": "urgency_level",
+          "displayName": "urgency_level",
+          "value": "$urgency_level",
+          "defaultValue": "high",
+          "entityTypeDisplayName": "@urgency_level",
+          "mandatory": true,
+          "prompts": [
+            "Is this happening now, or have you already taken an action?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Stop interacting with the caller and do not share passwords, OTPs, PINs, or remote-access codes. Contact the company using the number or support section in its official app or website. If you installed remote-access software or shared financial details, disconnect the session, remove access, and contact your bank and a trusted technical helper."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "I called a customer support number from a search result",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Someone claiming to be support wants remote access",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Is this customer care number fake",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A support agent asked for my OTP",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Tech support says my account is infected",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A caller wants me to install a screen sharing app",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I found a support number on social media",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Someone says they can fix my bank account for a fee",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A fake support person asked for my card details",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How do I contact official customer support",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "They asked me to share my screen to get a refund",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A support caller is pressuring me to act now",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I think I spoke to a fake helpline",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Can real support ask for my password",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Someone pretending to be support wants a payment",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I installed an app at a support agent's request",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How do I verify a company's support number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A caller wants my banking app PIN",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I gave details to a fake support agent",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "What should I do after a tech support scam",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "templates": []
+}

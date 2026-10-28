@@ -1,0 +1,263 @@
+{
+  "name": "FakeRefundScam",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "scam_type",
+          "displayName": "scam_type",
+          "value": "$scam_type",
+          "defaultValue": "fake refund scam",
+          "entityTypeDisplayName": "@scam_type",
+          "mandatory": true,
+          "prompts": [
+            "What type of issue is this? For example: fake refund scam."
+          ]
+        },
+        {
+          "name": "message_channel",
+          "displayName": "message_channel",
+          "value": "$message_channel",
+          "defaultValue": "SMS or email",
+          "entityTypeDisplayName": "@message_channel",
+          "mandatory": true,
+          "prompts": [
+            "Where or how did this happen? For example: SMS or email."
+          ]
+        },
+        {
+          "name": "urgency_level",
+          "displayName": "urgency_level",
+          "value": "$urgency_level",
+          "defaultValue": "high",
+          "entityTypeDisplayName": "@urgency_level",
+          "mandatory": true,
+          "prompts": [
+            "Is this urgent, or have you already taken an action?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Unexpected refund requests can be scams. Never share an OTP, password, card PIN, or UPI PIN, and do not pay an unexpected fee to receive a refund. Check directly with the official company or payment provider. If you shared details or paid, contact your bank promptly."
+        }
+      ],
+      "defaultResponsePlatforms": {}
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "A message says a refund is waiting for me",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Someone asked me to pay a fee for a refund",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A refund link asks for my card details",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Is this refund notification genuine",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "They need my OTP to send a refund",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A seller sent me a QR code for a refund",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I got an unexpected refund message",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A caller promised to return my money",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "They say the refund expires today",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Can I share my UPI PIN for a refund",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "A website wants my bank password for a refund",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Someone asked me to install an app to get money back",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How do I verify a refund offer",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I think a refund message is fake",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I clicked a suspicious refund link",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "The refund agent wants remote access",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "They asked for a processing fee before refunding me",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How do I avoid refund fraud",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I gave details to a fake refund agent",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "What should I do after a refund scam",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "templates": []
+}

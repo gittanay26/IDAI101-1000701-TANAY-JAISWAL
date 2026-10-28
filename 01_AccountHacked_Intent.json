@@ -1,0 +1,214 @@
+{
+  "id": "accounthackedintent",
+  "name": "AccountHacked",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "AccountHacked",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "If you suspect your account was taken over, use the service's official recovery page, change the password from a trusted device, sign out other sessions, enable multi-factor authentication, and secure the linked email. Never share verification codes. Contact the provider through official support."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "accounthacked-01",
+      "data": [
+        {
+          "text": "My account has been hacked",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-02",
+      "data": [
+        {
+          "text": "Someone accessed my account without permission",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-03",
+      "data": [
+        {
+          "text": "I cannot log in because my account was taken over",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-04",
+      "data": [
+        {
+          "text": "My email account was compromised",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-05",
+      "data": [
+        {
+          "text": "A stranger changed my account password",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-06",
+      "data": [
+        {
+          "text": "I got an alert about an unknown login",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-07",
+      "data": [
+        {
+          "text": "Someone is using my account",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-08",
+      "data": [
+        {
+          "text": "Help me secure a hacked account",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-09",
+      "data": [
+        {
+          "text": "My social media account was stolen",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-10",
+      "data": [
+        {
+          "text": "I think my account has been compromised",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-11",
+      "data": [
+        {
+          "text": "There is an unfamiliar device on my account",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-12",
+      "data": [
+        {
+          "text": "I lost access to my account",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-13",
+      "data": [
+        {
+          "text": "An attacker changed my recovery details",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-14",
+      "data": [
+        {
+          "text": "How do I recover a compromised account",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-15",
+      "data": [
+        {
+          "text": "My account is behaving strangely",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-16",
+      "data": [
+        {
+          "text": "I received an unexpected login notification",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-17",
+      "data": [
+        {
+          "text": "Please help me protect my account",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-18",
+      "data": [
+        {
+          "text": "I suspect someone has my credentials",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-19",
+      "data": [
+        {
+          "text": "My account details were changed without me",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "accounthacked-20",
+      "data": [
+        {
+          "text": "What should I do after an account takeover",
+          "userDefined": false
+        }
+      ]
+    }
+  ]
+}

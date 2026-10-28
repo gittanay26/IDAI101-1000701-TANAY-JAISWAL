@@ -1,0 +1,214 @@
+{
+  "id": "prizescamintent",
+  "name": "PrizeScam",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "PrizeScam",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Unexpected prizes, upfront claim fees, requests for OTPs or banking details, and pressure to click links are warning signs. Do not pay or provide personal information. Verify the contest using the company's official website or verified account, not the message's link."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "prizescam-01",
+      "data": [
+        {
+          "text": "I got a message saying I won a prize",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-02",
+      "data": [
+        {
+          "text": "Someone says I won a lottery I never entered",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-03",
+      "data": [
+        {
+          "text": "I must pay a fee to claim a prize",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-04",
+      "data": [
+        {
+          "text": "Is this prize notification fake",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-05",
+      "data": [
+        {
+          "text": "A giveaway asks for my bank details",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-06",
+      "data": [
+        {
+          "text": "I received an unexpected winner message",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-07",
+      "data": [
+        {
+          "text": "They want a processing fee before sending my prize",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-08",
+      "data": [
+        {
+          "text": "How can I spot a lottery scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-09",
+      "data": [
+        {
+          "text": "A stranger says I won a phone",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-10",
+      "data": [
+        {
+          "text": "The prize message asks for my OTP",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-11",
+      "data": [
+        {
+          "text": "I won a contest I do not remember entering",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-12",
+      "data": [
+        {
+          "text": "Is a prize claim fee suspicious",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-13",
+      "data": [
+        {
+          "text": "They ask me to click a link to claim a reward",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-14",
+      "data": [
+        {
+          "text": "A social media giveaway wants personal information",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-15",
+      "data": [
+        {
+          "text": "I got a fake-looking lucky draw message",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-16",
+      "data": [
+        {
+          "text": "How do prize scams work",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-17",
+      "data": [
+        {
+          "text": "Someone says I need to pay tax upfront for winnings",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-18",
+      "data": [
+        {
+          "text": "I received a suspicious reward notification",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-19",
+      "data": [
+        {
+          "text": "Can I verify a prize with the company",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "prizescam-20",
+      "data": [
+        {
+          "text": "Help me check a prize scam",
+          "userDefined": false
+        }
+      ]
+    }
+  ]
+}

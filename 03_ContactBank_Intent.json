@@ -1,0 +1,214 @@
+{
+  "id": "contactbankintent",
+  "name": "ContactBank",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ContactBank",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Contact your bank through its official app, the phone number printed on your card, or the bank's official website typed directly into your browser. Explain what happened and ask about blocking cards, securing online banking, and disputing unauthorised transactions."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "contactbank-01",
+      "data": [
+        {
+          "text": "How do I contact my bank safely",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-02",
+      "data": [
+        {
+          "text": "I need to tell my bank about a scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-03",
+      "data": [
+        {
+          "text": "What is the safest way to call my bank",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-04",
+      "data": [
+        {
+          "text": "I think my bank account is at risk",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-05",
+      "data": [
+        {
+          "text": "Help me contact my bank after fraud",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-06",
+      "data": [
+        {
+          "text": "I shared details with a suspicious caller",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-07",
+      "data": [
+        {
+          "text": "I need to report an unauthorised payment",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-08",
+      "data": [
+        {
+          "text": "Where can I find my bank's official contact",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-09",
+      "data": [
+        {
+          "text": "Should I call my bank about a scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-10",
+      "data": [
+        {
+          "text": "I may have approved a fraudulent payment",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-11",
+      "data": [
+        {
+          "text": "How can I block my card safely",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-12",
+      "data": [
+        {
+          "text": "I want to report suspicious banking activity",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-13",
+      "data": [
+        {
+          "text": "My account may be compromised",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-14",
+      "data": [
+        {
+          "text": "How do I reach official bank support",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-15",
+      "data": [
+        {
+          "text": "A scammer has my banking details",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-16",
+      "data": [
+        {
+          "text": "I need urgent help from my bank",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-17",
+      "data": [
+        {
+          "text": "Can I contact the bank through its app",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-18",
+      "data": [
+        {
+          "text": "What should I say to my bank about fraud",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-19",
+      "data": [
+        {
+          "text": "I want to dispute an unknown transaction",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "contactbank-20",
+      "data": [
+        {
+          "text": "Help me find safe bank support steps",
+          "userDefined": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "id": "reportcybercrimeintent",
+  "name": "ReportCybercrime",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ReportCybercrime",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Use the official cybercrime reporting service for your country or region, and contact your bank/payment provider immediately if money or banking access is involved. Keep evidence such as screenshots, URLs, phone numbers, dates, and transaction references. Avoid unofficial recovery agents."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "reportcybercrime-01",
+      "data": [
+        {
+          "text": "How do I report a cybercrime",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-02",
+      "data": [
+        {
+          "text": "Where can I report an online scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-03",
+      "data": [
+        {
+          "text": "I want to report a phishing message",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-04",
+      "data": [
+        {
+          "text": "How can I file a cyber fraud complaint",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-05",
+      "data": [
+        {
+          "text": "Tell me how to report a scammer",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-06",
+      "data": [
+        {
+          "text": "I lost money to an online fraudster",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-07",
+      "data": [
+        {
+          "text": "Where should I report a fake website",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-08",
+      "data": [
+        {
+          "text": "How do I report a suspicious phone number",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-09",
+      "data": [
+        {
+          "text": "Can I report a fake job scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-10",
+      "data": [
+        {
+          "text": "I need to report UPI fraud",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-11",
+      "data": [
+        {
+          "text": "What information do I need for a cybercrime report",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-12",
+      "data": [
+        {
+          "text": "How do I report an online shopping scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-13",
+      "data": [
+        {
+          "text": "I want to report an OTP scam attempt",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-14",
+      "data": [
+        {
+          "text": "Which official service handles cybercrime reports",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-15",
+      "data": [
+        {
+          "text": "How can I report a scam email",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-16",
+      "data": [
+        {
+          "text": "I have screenshots and transaction details to report",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-17",
+      "data": [
+        {
+          "text": "Can I report a scam even if I did not lose money",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-18",
+      "data": [
+        {
+          "text": "How do I report a fake investment platform",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-19",
+      "data": [
+        {
+          "text": "Help me prepare to report digital fraud",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "reportcybercrime-20",
+      "data": [
+        {
+          "text": "What is the next step after reporting a scam",
+          "userDefined": false
+        }
+      ]
+    }
+  ]
+}

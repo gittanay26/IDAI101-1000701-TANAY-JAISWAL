@@ -1,0 +1,260 @@
+{
+  "id": "7ad157aa-2458-4007-82e3-6265190379fe",
+  "name": "RecoveryGuidance",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RecoveryGuidance",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "name": "incident_status",
+          "value": "$incident_status",
+          "entityTypeDisplayName": "@incident_status",
+          "mandatory": true,
+          "prompts": [
+            "What has happened so far?"
+          ]
+        },
+        {
+          "name": "money_loss_range",
+          "value": "$money_loss_range",
+          "entityTypeDisplayName": "@money_loss_range",
+          "mandatory": true,
+          "prompts": [
+            "Was any money lost? If yes, choose the approximate range; do not share account numbers."
+          ]
+        },
+        {
+          "name": "user_action",
+          "value": "$user_action",
+          "entityTypeDisplayName": "@user_action",
+          "mandatory": true,
+          "prompts": [
+            "What have you already done to protect yourself or report it?"
+          ]
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Act quickly: contact your bank or payment provider through its official channel if money or payment details are involved. Change compromised passwords from the official site, block access where possible, preserve messages and transaction references, and report the incident to your local cybercrime authority. Recovery is not guaranteed; beware of anyone demanding a fee to recover your money."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "data": [
+        {
+          "text": "I think I have been scammed what now",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How can I recover after an online scam",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I already shared my bank details",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I paid someone who turned out to be a scammer",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "What should I do after clicking a scam link",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Help me secure my accounts after fraud",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I shared an OTP with someone",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I lost money in an online scam",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How do I report a cyber fraud incident",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Can I get my money back after a scam",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "My account may be compromised",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "What steps should I take after a phishing attack",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I gave personal information to a fake website",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How do I preserve evidence of a scam",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I need help after a suspicious transaction",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Should I contact my bank after fraud",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "Someone is threatening me after a scam",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "How do I stop further losses",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "What details should I collect for a report",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    },
+    {
+      "data": [
+        {
+          "text": "I need next steps after being scammed",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

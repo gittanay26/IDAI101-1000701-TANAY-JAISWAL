@@ -1,0 +1,214 @@
+{
+  "id": "remoteaccessscamintent",
+  "name": "RemoteAccessScam",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "RemoteAccessScam",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Do not install remote-access apps or share your screen at the request of an unsolicited caller. If you already did, disconnect the session, uninstall the app if safe to do so, check device permissions, and contact your bank through official channels if banking apps or details may have been exposed."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "remoteaccessscam-01",
+      "data": [
+        {
+          "text": "Someone asked me to install a remote access app",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-02",
+      "data": [
+        {
+          "text": "A caller wants to control my phone",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-03",
+      "data": [
+        {
+          "text": "Is a remote support app request suspicious",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-04",
+      "data": [
+        {
+          "text": "A bank caller told me to install an app",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-05",
+      "data": [
+        {
+          "text": "Someone wants screen sharing to fix my account",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-06",
+      "data": [
+        {
+          "text": "How do remote access scams work",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-07",
+      "data": [
+        {
+          "text": "I installed an app after a suspicious call",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-08",
+      "data": [
+        {
+          "text": "A support agent is asking for remote control",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-09",
+      "data": [
+        {
+          "text": "Should I give a stranger access to my device",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-10",
+      "data": [
+        {
+          "text": "They told me to share my screen and open banking",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-11",
+      "data": [
+        {
+          "text": "I think a remote access request is a scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-12",
+      "data": [
+        {
+          "text": "A caller wants me to download an APK",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-13",
+      "data": [
+        {
+          "text": "Can scammers control my phone remotely",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-14",
+      "data": [
+        {
+          "text": "What should I do after installing a suspicious app",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-15",
+      "data": [
+        {
+          "text": "A fake technician wants access to my laptop",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-16",
+      "data": [
+        {
+          "text": "Someone says remote access is needed for a refund",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-17",
+      "data": [
+        {
+          "text": "How can I protect my device from remote scams",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-18",
+      "data": [
+        {
+          "text": "I shared my screen with a suspicious person",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-19",
+      "data": [
+        {
+          "text": "A caller is guiding me through banking steps",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "remoteaccessscam-20",
+      "data": [
+        {
+          "text": "Help me check a remote support scam",
+          "userDefined": false
+        }
+      ]
+    }
+  ]
+}

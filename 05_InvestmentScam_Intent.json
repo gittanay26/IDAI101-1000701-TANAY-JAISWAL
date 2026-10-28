@@ -1,0 +1,214 @@
+{
+  "id": "investmentscamintent",
+  "name": "InvestmentScam",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "InvestmentScam",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Guaranteed high returns, pressure to act quickly, unsolicited investment messages, and fees demanded to release profits are warning signs. Do not send more money. Verify firms independently with the relevant financial regulator and avoid relying on contact details or links supplied by the promoter."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "investmentscam-01",
+      "data": [
+        {
+          "text": "Is this investment offer a scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-02",
+      "data": [
+        {
+          "text": "Someone promised guaranteed investment returns",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-03",
+      "data": [
+        {
+          "text": "A group says I can double my money quickly",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-04",
+      "data": [
+        {
+          "text": "I was asked to pay to unlock investment profits",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-05",
+      "data": [
+        {
+          "text": "How can I spot a fake investment scheme",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-06",
+      "data": [
+        {
+          "text": "A crypto investor is messaging me privately",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-07",
+      "data": [
+        {
+          "text": "They promise risk-free high returns",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-08",
+      "data": [
+        {
+          "text": "I received an investment opportunity on social media",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-09",
+      "data": [
+        {
+          "text": "A trading platform asks for extra withdrawal fees",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-10",
+      "data": [
+        {
+          "text": "Is guaranteed profit a warning sign",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-11",
+      "data": [
+        {
+          "text": "A stranger wants me to invest urgently",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-12",
+      "data": [
+        {
+          "text": "They showed fake-looking investment earnings",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-13",
+      "data": [
+        {
+          "text": "I cannot withdraw money from an investment site",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-14",
+      "data": [
+        {
+          "text": "A broker is pressuring me to deposit more",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-15",
+      "data": [
+        {
+          "text": "I think an investment app is fraudulent",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-16",
+      "data": [
+        {
+          "text": "How do I verify an investment company",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-17",
+      "data": [
+        {
+          "text": "Someone says I must pay tax to release profits",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-18",
+      "data": [
+        {
+          "text": "I got a suspicious crypto offer",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-19",
+      "data": [
+        {
+          "text": "The investment offer sounds too good to be true",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "investmentscam-20",
+      "data": [
+        {
+          "text": "Help me assess investment fraud warning signs",
+          "userDefined": false
+        }
+      ]
+    }
+  ]
+}

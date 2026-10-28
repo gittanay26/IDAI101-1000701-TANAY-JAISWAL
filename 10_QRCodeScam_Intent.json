@@ -1,0 +1,214 @@
+{
+  "id": "qrcodescamintent",
+  "name": "QRCodeScam",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "QRCodeScam",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Treat unexpected QR codes cautiously. Scanning one may open a malicious website or initiate a payment flow. To receive money, you generally should not need to enter your UPI PIN. Check the payee and amount carefully, and never approve an unknown collect request."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "qrcodescam-01",
+      "data": [
+        {
+          "text": "Can a QR code be used in a scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-02",
+      "data": [
+        {
+          "text": "Someone sent me a suspicious QR code",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-03",
+      "data": [
+        {
+          "text": "I was asked to scan a QR code to receive money",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-04",
+      "data": [
+        {
+          "text": "Is scanning a payment QR safe",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-05",
+      "data": [
+        {
+          "text": "A buyer sent a QR code and says I will get paid",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-06",
+      "data": [
+        {
+          "text": "How do QR payment scams work",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-07",
+      "data": [
+        {
+          "text": "I received an unknown QR code on a message",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-08",
+      "data": [
+        {
+          "text": "The QR code asks me to enter my PIN",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-09",
+      "data": [
+        {
+          "text": "Should I scan a QR code from a stranger",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-10",
+      "data": [
+        {
+          "text": "A seller wants me to scan a code to get a refund",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-11",
+      "data": [
+        {
+          "text": "I scanned a suspicious payment QR",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-12",
+      "data": [
+        {
+          "text": "Can scanning a QR code send money",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-13",
+      "data": [
+        {
+          "text": "A QR code opens an unfamiliar website",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-14",
+      "data": [
+        {
+          "text": "How can I verify a QR code safely",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-15",
+      "data": [
+        {
+          "text": "Someone says scan this code to claim a reward",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-16",
+      "data": [
+        {
+          "text": "Is this QR payment request suspicious",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-17",
+      "data": [
+        {
+          "text": "I was sent a QR code for a refund",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-18",
+      "data": [
+        {
+          "text": "What should I do after scanning a fake QR",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-19",
+      "data": [
+        {
+          "text": "The QR code asks for banking login details",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "qrcodescam-20",
+      "data": [
+        {
+          "text": "Help me stay safe from QR scams",
+          "userDefined": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "id": "moneysenttoscammerintent",
+  "name": "MoneySentToScammer",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "MoneySentToScammer",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Contact your bank or payment provider immediately through official channels and report the transaction as suspected fraud. Ask whether it can be stopped or disputed. Save transaction IDs, receipts, messages, and account details. Report to the relevant official cybercrime service. Do not pay anyone who promises guaranteed recovery."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "moneysenttoscammer-01",
+      "data": [
+        {
+          "text": "I sent money to a scammer",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-02",
+      "data": [
+        {
+          "text": "I made a payment and now think it was fraud",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-03",
+      "data": [
+        {
+          "text": "Money has gone from my account to a stranger",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-04",
+      "data": [
+        {
+          "text": "I transferred money after a suspicious call",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-05",
+      "data": [
+        {
+          "text": "I paid a fake seller",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-06",
+      "data": [
+        {
+          "text": "I think I have been tricked into sending money",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-07",
+      "data": [
+        {
+          "text": "Can I report a fraudulent transfer",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-08",
+      "data": [
+        {
+          "text": "I sent money to a fake investment platform",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-09",
+      "data": [
+        {
+          "text": "I approved a scam payment request",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-10",
+      "data": [
+        {
+          "text": "What should I do after paying a scammer",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-11",
+      "data": [
+        {
+          "text": "I lost money in an online scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-12",
+      "data": [
+        {
+          "text": "I paid a registration fee for a fake job",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-13",
+      "data": [
+        {
+          "text": "A seller took my money and disappeared",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-14",
+      "data": [
+        {
+          "text": "I sent a UPI payment to a scammer",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-15",
+      "data": [
+        {
+          "text": "How do I respond to a fraudulent transaction",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-16",
+      "data": [
+        {
+          "text": "Someone tricked me into making a transfer",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-17",
+      "data": [
+        {
+          "text": "I need help after an online payment scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-18",
+      "data": [
+        {
+          "text": "I paid a fake support agent",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-19",
+      "data": [
+        {
+          "text": "Can my bank help recover a scam payment",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "moneysenttoscammer-20",
+      "data": [
+        {
+          "text": "I just realised my payment was fraudulent",
+          "userDefined": false
+        }
+      ]
+    }
+  ]
+}

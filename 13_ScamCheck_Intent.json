@@ -1,0 +1,214 @@
+{
+  "id": "scamcheckintent",
+  "name": "ScamCheck",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ScamCheck",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "I can help check for warning signs. Please share the suspicious message text without passwords, OTPs, PINs, account numbers, or other private details. Also tell me what type of scam you suspect and whether you have already paid or shared information. Verify any claim through official channels."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "scamcheck-01",
+      "data": [
+        {
+          "text": "I want to check if this message is a scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-02",
+      "data": [
+        {
+          "text": "Can you check this suspicious message",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-03",
+      "data": [
+        {
+          "text": "Is this message genuine or fake",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-04",
+      "data": [
+        {
+          "text": "Help me identify a possible scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-05",
+      "data": [
+        {
+          "text": "I received a strange text message",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-06",
+      "data": [
+        {
+          "text": "Can you tell me if this offer is fraudulent",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-07",
+      "data": [
+        {
+          "text": "Please check whether I am being scammed",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-08",
+      "data": [
+        {
+          "text": "I am not sure if this message is safe",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-09",
+      "data": [
+        {
+          "text": "Analyse this message for scam signs",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-10",
+      "data": [
+        {
+          "text": "I think someone is trying to scam me",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-11",
+      "data": [
+        {
+          "text": "Is this request for payment suspicious",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-12",
+      "data": [
+        {
+          "text": "Can you assess this offer",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-13",
+      "data": [
+        {
+          "text": "I got an unexpected message asking for money",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-14",
+      "data": [
+        {
+          "text": "Help me check a suspicious request",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-15",
+      "data": [
+        {
+          "text": "Does this message look like phishing",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-16",
+      "data": [
+        {
+          "text": "I received a message asking for an OTP",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-17",
+      "data": [
+        {
+          "text": "Can you help me identify fraud warning signs",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-18",
+      "data": [
+        {
+          "text": "I want to verify a suspicious offer",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-19",
+      "data": [
+        {
+          "text": "Is this link or message trustworthy",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "scamcheck-20",
+      "data": [
+        {
+          "text": "What should I look for in a possible scam",
+          "userDefined": false
+        }
+      ]
+    }
+  ]
+}

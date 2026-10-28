@@ -1,0 +1,214 @@
+{
+  "id": "preserveevidenceintent",
+  "name": "PreserveEvidence",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "PreserveEvidence",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Keep screenshots and copies of messages, sender details, phone numbers, email addresses, URLs, dates and times, transaction references, and receipts. Do not engage with the suspected scammer or alter the evidence. Store it securely and share it only with your bank, platform, or appropriate authorities."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "preserveevidence-01",
+      "data": [
+        {
+          "text": "How do I save evidence of a scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-02",
+      "data": [
+        {
+          "text": "What evidence should I keep",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-03",
+      "data": [
+        {
+          "text": "I want to report a suspicious message",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-04",
+      "data": [
+        {
+          "text": "Should I keep screenshots of scam chats",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-05",
+      "data": [
+        {
+          "text": "How can I preserve payment proof",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-06",
+      "data": [
+        {
+          "text": "What details are useful for a cybercrime report",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-07",
+      "data": [
+        {
+          "text": "I deleted a scam message by mistake",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-08",
+      "data": [
+        {
+          "text": "Should I save the scammer's phone number",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-09",
+      "data": [
+        {
+          "text": "How do I keep records of a fraudulent transaction",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-10",
+      "data": [
+        {
+          "text": "What information should I collect safely",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-11",
+      "data": [
+        {
+          "text": "I need evidence before reporting fraud",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-12",
+      "data": [
+        {
+          "text": "How do I document a fake job scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-13",
+      "data": [
+        {
+          "text": "Should I save email headers and sender details",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-14",
+      "data": [
+        {
+          "text": "Can I keep screenshots of suspicious links",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-15",
+      "data": [
+        {
+          "text": "What records will help my bank investigate",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-16",
+      "data": [
+        {
+          "text": "How can I save messages without replying",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-17",
+      "data": [
+        {
+          "text": "I want to document an online scam attempt",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-18",
+      "data": [
+        {
+          "text": "What should I write down after a scam call",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-19",
+      "data": [
+        {
+          "text": "How do I store scam evidence safely",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "preserveevidence-20",
+      "data": [
+        {
+          "text": "Help me prepare evidence for a report",
+          "userDefined": false
+        }
+      ]
+    }
+  ]
+}

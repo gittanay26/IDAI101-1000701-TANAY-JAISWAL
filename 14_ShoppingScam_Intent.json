@@ -1,0 +1,214 @@
+{
+  "id": "shoppingscamintent",
+  "name": "ShoppingScam",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ShoppingScam",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Check independent reviews and the seller's details, use the platform's official checkout, and avoid unusual payment methods or pressure to pay outside the platform. If you already paid and suspect fraud, contact your payment provider and preserve the order, chat, and receipt records."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "shoppingscam-01",
+      "data": [
+        {
+          "text": "I think an online shop is fake",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-02",
+      "data": [
+        {
+          "text": "I paid for an item but it never arrived",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-03",
+      "data": [
+        {
+          "text": "A seller wants payment outside the platform",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-04",
+      "data": [
+        {
+          "text": "How can I identify a shopping scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-05",
+      "data": [
+        {
+          "text": "The product price is unrealistically low",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-06",
+      "data": [
+        {
+          "text": "An online seller stopped replying after payment",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-07",
+      "data": [
+        {
+          "text": "Is this shopping website trustworthy",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-08",
+      "data": [
+        {
+          "text": "I received a fake tracking link",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-09",
+      "data": [
+        {
+          "text": "A store asks me to pay by gift card",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-10",
+      "data": [
+        {
+          "text": "I think I bought from a fraudulent website",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-11",
+      "data": [
+        {
+          "text": "How do I check an online seller",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-12",
+      "data": [
+        {
+          "text": "A seller is asking for extra delivery fees",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-13",
+      "data": [
+        {
+          "text": "I got a suspicious online shopping offer",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-14",
+      "data": [
+        {
+          "text": "The seller refuses to use secure checkout",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-15",
+      "data": [
+        {
+          "text": "I paid for a product and got something else",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-16",
+      "data": [
+        {
+          "text": "Can a fake store steal card details",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-17",
+      "data": [
+        {
+          "text": "How do I avoid marketplace scams",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-18",
+      "data": [
+        {
+          "text": "A seller asks for a deposit before showing the item",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-19",
+      "data": [
+        {
+          "text": "I suspect a fake e-commerce site",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "shoppingscam-20",
+      "data": [
+        {
+          "text": "Help me check an online shopping scam",
+          "userDefined": false
+        }
+      ]
+    }
+  ]
+}

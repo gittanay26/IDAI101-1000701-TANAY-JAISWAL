@@ -1,0 +1,214 @@
+{
+  "id": "bankimpersonationintent",
+  "name": "BankImpersonation",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BankImpersonation",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": [
+            "Do not share OTPs, PINs, passwords, CVV, or approve transfers because of an unexpected call. Hang up and contact your bank using the number on its official card or website/app. Do not use a number supplied by the caller."
+          ]
+        }
+      ]
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": [],
+  "userSays": [
+    {
+      "id": "bankimpersonation-01",
+      "data": [
+        {
+          "text": "Someone is pretending to be my bank",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-02",
+      "data": [
+        {
+          "text": "I got a call from a person claiming to be bank staff",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-03",
+      "data": [
+        {
+          "text": "A caller asked me to verify my bank account",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-04",
+      "data": [
+        {
+          "text": "Someone claiming to be from my bank wants my OTP",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-05",
+      "data": [
+        {
+          "text": "I received a fake bank alert",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-06",
+      "data": [
+        {
+          "text": "How do I identify a bank impersonation scam",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-07",
+      "data": [
+        {
+          "text": "The caller asked for my card PIN",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-08",
+      "data": [
+        {
+          "text": "A bank representative asked me to install an app",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-09",
+      "data": [
+        {
+          "text": "I think this bank call is fake",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-10",
+      "data": [
+        {
+          "text": "Someone says my bank account will be blocked",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-11",
+      "data": [
+        {
+          "text": "I got a suspicious message from a bank",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-12",
+      "data": [
+        {
+          "text": "A caller wants my account details",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-13",
+      "data": [
+        {
+          "text": "Is this bank security call genuine",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-14",
+      "data": [
+        {
+          "text": "They asked me to move money to a safe account",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-15",
+      "data": [
+        {
+          "text": "A person is pretending to be bank support",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-16",
+      "data": [
+        {
+          "text": "I was asked for my CVV over the phone",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-17",
+      "data": [
+        {
+          "text": "How can I verify a bank employee",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-18",
+      "data": [
+        {
+          "text": "The bank caller is pressuring me",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-19",
+      "data": [
+        {
+          "text": "I received an unexpected account warning",
+          "userDefined": false
+        }
+      ]
+    },
+    {
+      "id": "bankimpersonation-20",
+      "data": [
+        {
+          "text": "Help me check a fake bank call",
+          "userDefined": false
+        }
+      ]
+    }
+  ]
+}

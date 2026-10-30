@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ScamShield AI helps people recognise common online scams and learn safer digital habits.">
+  <title>ScamShield AI | Stay Alert. Stay Safe.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="ScamShield AI home">
+      <span class="brand-mark">S</span><span>ScamShield <b>AI</b></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#threats">Scam types</a>
+      <a href="#safety">Stay safe</a>
+      <a href="#how">How it works</a>
+    </nav>
+    <a class="nav-cta" href="#chat">Chat with AI <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> DIGITAL SAFETY, MADE SIMPLE</div>
+        <h1>Pause. Check.<br><span>Stay protected.</span></h1>
+        <p class="hero-lead">Online scams are getting harder to spot. ScamShield AI helps you understand warning signs, make safer choices, and know what to do next.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#chat">Ask ScamShield AI <span>→</span></a>
+          <a class="button button-quiet" href="#threats">Explore common scams</a>
+        </div>
+        <div class="trust-note"><span class="shield-mini">✓</span> Free awareness resource · No visitor account or OTP required</div>
+      </div>
+      <div class="hero-visual" aria-label="Digital security illustration">
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="shield-art"><div class="shield-inner"><span class="lock">⌑</span><strong>SAFE</strong><small>ONLINE</small></div></div>
+        <div class="float-card card-alert"><span class="alert-icon">!</span><div><b>Suspicious link?</b><small>Pause before you tap.</small></div></div>
+        <div class="float-card card-check"><span class="check-icon">✓</span><div><b>Think before you share</b><small>Protect personal information.</small></div></div>
+        <div class="visual-caption">YOUR DIGITAL SAFETY COMPANION</div>
+      </div>
+    </section>
+
+    <section class="stat-strip" aria-label="Project overview">
+      <div><strong>38</strong><span>Dialogflow intents*</span></div>
+      <div><strong>30</strong><span>Custom entities*</span></div>
+      <div><strong>24/7</strong><span>Website access</span></div>
+      <div class="stat-note">*Project configuration figures supplied by the student; verify in Dialogflow before assessment.</div>
+    </section>
+
+    <section class="section" id="threats">
+      <div class="section-heading">
+        <div><div class="eyebrow">KNOW THE WARNING SIGNS</div><h2>Scams can look convincing.</h2></div>
+        <p>Learn about common tactics used to pressure people into sharing information or sending money.</p>
+      </div>
+      <div class="threat-grid">
+        <article class="threat-card"><span class="threat-icon purple">✉</span><h3>Phishing messages</h3><p>Emails or texts that imitate trusted organisations and push you to click a link.</p><a href="#chat">Ask about phishing ↗</a></article>
+        <article class="threat-card"><span class="threat-icon orange">₹</span><h3>Payment & UPI scams</h3><p>Unexpected collect requests, fake payment confirmations, or pressure to transfer money.</p><a href="#chat">Ask about payment scams ↗</a></article>
+        <article class="threat-card"><span class="threat-icon blue">◇</span><h3>Fake prizes & offers</h3><p>Messages claiming you won a reward but asking for a fee or personal details first.</p><a href="#chat">Ask about prize scams ↗</a></article>
+        <article class="threat-card"><span class="threat-icon green">▣</span><h3>Impersonation</h3><p>Someone pretending to be a bank, delivery service, support agent, or official.</p><a href="#chat">Ask about impersonation ↗</a></article>
+        <article class="threat-card"><span class="threat-icon pink">↗</span><h3>Investment scams</h3><p>Unrealistic returns, urgency, and requests to invest through unverified platforms.</p><a href="#chat">Ask about investment scams ↗</a></article>
+        <article class="threat-card"><span class="threat-icon yellow">⌘</span><h3>QR & remote-access scams</h3><p>Tricks that may lead you to unsafe QR codes or ask you to install remote-access apps.</p><a href="#chat">Ask about these scams ↗</a></article>
+      </div>
+    </section>
+
+    <section class="safety-band" id="safety">
+      <div class="safety-intro"><div class="eyebrow">A SIMPLE SAFETY CHECK</div><h2>Before you respond,<br>remember these four rules.</h2><p>A moment of checking can help prevent a costly mistake.</p></div>
+      <div class="safety-list">
+        <div><span>01</span><p><b>Stop the pressure.</b> Be careful when a message demands immediate action.</p></div>
+        <div><span>02</span><p><b>Verify independently.</b> Contact the organisation using its official app or website.</p></div>
+        <div><span>03</span><p><b>Keep secrets private.</b> Never share OTPs, passwords, PINs, or recovery codes.</p></div>
+        <div><span>04</span><p><b>Do not rush payments.</b> Check the recipient and payment request before approving.</p></div>
+      </div>
+    </section>
+
+    <section class="section how-section" id="how">
+      <div class="section-heading">
+        <div><div class="eyebrow">BUILT FOR EVERYDAY USERS</div><h2>How ScamShield AI helps</h2></div>
+        <p>Ask a question in everyday language and explore general awareness guidance from the chatbot.</p>
+      </div>
+      <div class="steps">
+        <div class="step"><span>1</span><h3>Ask a question</h3><p>Describe the type of message, offer, or online situation you are unsure about.</p></div>
+        <div class="step"><span>2</span><h3>Get guidance</h3><p>The Dialogflow chatbot matches your request to a relevant scam-awareness topic.</p></div>
+        <div class="step"><span>3</span><h3>Choose safer next steps</h3><p>Use the guidance to verify independently and contact official support when needed.</p></div>
+      </div>
+    </section>
+
+    <section class="chat-cta" id="chat">
+      <div><div class="eyebrow">SCAMSHIELD AI CHATBOT</div><h2>Have a suspicious message<br>or a question?</h2><p>Open the chat bubble in the bottom-right corner to talk to ScamShield AI. Do not enter passwords, OTPs, PINs, or banking details.</p></div>
+      <div class="chat-prompt"><div class="chat-dot"></div><b>Chat is available on this page</b><span>Look for the chat icon ↘</span></div>
+    </section>
+
+    <section class="testing section">
+      <div class="section-heading"><div><div class="eyebrow">ASSESSMENT TEST PLAN</div><h2>Scenarios to test</h2></div><p>Use these realistic examples to check intent matching and response quality in Dialogflow Messenger.</p></div>
+      <div class="test-table">
+        <div class="test-row test-head"><span>Scenario</span><span>Example user message</span><span>Expected behaviour</span></div>
+        <div class="test-row"><b>Suspicious bank SMS</b><span>“My bank sent a link asking me to update my KYC. Is it safe?”</span><span>Explain phishing warning signs and advise independent verification.</span></div>
+        <div class="test-row"><b>OTP request</b><span>“A caller says they need my OTP to stop a transaction.”</span><span>Warn never to share OTPs; suggest contacting the bank via official channels.</span></div>
+        <div class="test-row"><b>Investment offer</b><span>“An online group promises guaranteed high returns.”</span><span>Explain unrealistic-return and urgency warning signs.</span></div>
+        <div class="test-row"><b>Shopping scam</b><span>“I paid an online seller but they stopped replying.”</span><span>Suggest preserving transaction evidence and contacting the payment provider.</span></div>
+        <div class="test-row"><b>Report cybercrime</b><span>“How can I report a suspected online fraud?”</span><span>Provide safe, relevant reporting guidance and official-channel reminders.</span></div>
+      </div>
+      <p class="test-note">These are planned test cases. Record the actual chatbot response, pass/fail result, and any improvement after running each test.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#home"><span class="brand-mark">S</span><span>ScamShield <b>AI</b></span></a>
+    <p>Educational awareness project · Tanay Jaiswal · Reg. No. 1000701</p>
+    <small>ScamShield AI provides general awareness guidance, not official financial, legal, or cybersecurity advice. Verify suspicious requests through official channels.</small>
+  </footer>
+
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <df-messenger
+    intent="WELCOME"
+    chat-title="ScamShield AI"
+    agent-id="32a3f857-bc90-4db0-952b-3380f6fd76ea"
+    language-code="en">
+  </df-messenger>
+</body>
+</html>

@@ -10,7 +10,7 @@ The chatbot provides information about different scam categories and guides user
 
 ## 🌐 Live Website
 
-**Visit ScamShield AI:** https://scamshield-ai-bice.vercel.app
+**Visit ScamShield AI:** https://scamsheild-ljymx04un-gittanay26.vercel.app
 
 The ScamShield AI website provides an interactive interface for exploring scam awareness and accessing the chatbot.
 

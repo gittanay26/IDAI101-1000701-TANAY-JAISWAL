@@ -8,6 +8,13 @@ With the increasing use of online banking, digital payments, shopping applicatio
 
 The chatbot provides information about different scam categories and guides users towards safer online practices.
 
+## 🌐 Live Website
+
+**Visit ScamShield AI:** https://scamshield-ai-bice.vercel.app
+
+The ScamShield AI website provides an interactive interface for exploring scam awareness and accessing the chatbot.
+
+
 ## 2. Problem Statement
 
 Online scams have become a major concern for internet users. Scammers may use fake identities, attractive offers, urgent messages, and misleading links to convince people to share personal information or make payments.
